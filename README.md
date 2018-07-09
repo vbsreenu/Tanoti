@@ -12,6 +12,7 @@ Tanoti installation requires C program compiler.
 Download Tanoti source and enter into Tanoti directory
 
 _cd Tanoti/src_
+
 _bash compile_tanoti.sh_
 
 This will create binaries in bin directory inside Tanoti.
