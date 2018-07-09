@@ -7,11 +7,11 @@ Dynamic memory management and batch processing make Tanoti consume very little m
 
 ## Installation:
 
-Tanoti installation requires C program compiler. 
+Tanoti installation requires C program compiler. This Program will work only on Linux operating system.
 
 Download Tanoti source and enter into Tanoti directory
 
-_cd Tanoti/src_
+_cd Tanoti-master/src_
 
 _bash compile_tanoti.sh_
 
@@ -40,6 +40,5 @@ Optional parameters:
     -m : minimum match percentage of a read (default 50%)
     -u : include unmapped reads in the output 1/0 (default 0)
     -t : Keep temporary files
-    -P : number of parallel BLAST searches (default 2/single end and 4/paired end. Don’t change this value 
-         if you are unsure of it)
+    -P : number of parallel BLAST searches (default 2/single end and 4/paired end. Don’t change this value if you are unsure of it)
     -h : Help
